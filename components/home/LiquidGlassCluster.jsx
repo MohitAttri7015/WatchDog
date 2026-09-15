@@ -524,7 +524,7 @@ const DEFAULT_ORIENT = {
 function __OriginkitBase_LiquidGlassCluster({
     className,
     style,
-    background = "",
+    background = "transparent",
     shape = "Torus",
     logo = DUMMY_LOGO,
     depth = 32,
