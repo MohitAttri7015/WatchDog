@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Nav() {
     return (
-        <nav className="w-full flex justify-between items-center absolute top-0 left-0 z-10 px-4 md:px-8 py-8">
+        <nav className="bg-white/80 w-full flex justify-between items-center absolute top-0 left-0 z-10 px-4 md:px-8 py-8">
             <Logo />
             <div className="flex items-center font-main font-medium text-sm gap-2">
                 <span className="md:font-bold">LOG IN</span>

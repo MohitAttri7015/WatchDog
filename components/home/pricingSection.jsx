@@ -62,7 +62,7 @@ const pricingData = [
 export default function PricingSection() {
 
     return (
-        <section className="w-full bg-[#0b0b0b] px-4 md:px-8 mt-20 py-20 text-white sm:px-6 lg:px-8">
+        <section className="w-full bg-[#0b0b0b] px-4 md:px-8 mt-20 0d:py-20 py-10 text-white sm:px-6 lg:px-8">
             <div className="mx-auto w-full max-w-7xl">
 
                 {/* Header */}
