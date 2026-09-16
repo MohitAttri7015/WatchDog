@@ -1099,7 +1099,7 @@ function __OriginkitBase_LiquidGlassCluster({
         >
             <canvas
                 ref={canvasRef}
-                style={{ position: "absolute", inset: 0, width: "100%", height: "100%", display: "block" }}
+                style={{ position: "absolute", inset: 0, width: "100%", height: "100%", display: "block", background: "transparent", }}
             />
         </div>
     )
@@ -1108,6 +1108,9 @@ function __OriginkitBase_LiquidGlassCluster({
 const __originkitPresetProps = {
     shape: "Logo",
     logo: DUMMY_LOGO,
+    backdrop: {
+        type: "None",
+    },
     glass: {
         tint: "#000000",
         chromatic: 12,
