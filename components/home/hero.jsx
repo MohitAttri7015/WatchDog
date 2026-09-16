@@ -22,9 +22,9 @@ export default function Hero() {
             </div>
             <div className=""></div>
             <div className="w-full relative flex justify-center select-none">
-                <h1 className="text-center md:text-6xl sm:text-5xl text-4xl font-bold font-main text-black lg:w-[60%]">Meet your business's watchdog</h1>
+                <h1 className="text-center md:text-6xl sm:text-5xl text-2xl mobile:text-4xl font-bold font-main text-black lg:w-[60%]">Meet your business's watchdog</h1>
             </div>
-            <div className="w-full relative flex flex-col items-center justify-center gap-8">
+            <div className="w-full relative z-2 flex flex-col items-center justify-center gap-8">
                 <p className="text-center text-[14px] font-main lg:w-[45%] font-medium leading-4">It watches your competitor's prices and stock around the clock, and bark the moment something changes.</p>
 
                 <div className="w-full flex justify-center gap-4 font-main font-medium text-[13px]">
